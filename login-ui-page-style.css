@@ -20,8 +20,6 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 0.1;
-
 }
 
 .card {
@@ -36,35 +34,31 @@ body{
   flex-flow: column ;
   align-items: center;
   justify-content: space-around;
-
 }
-
 #username {
     width: 28vw;
     max-width: 280px;
-    border: none;
-    border-bottom: solid rgb(190, 190, 190);
+    border: 0;
+    border-bottom: solid rgb(190, 190, 190);   
 }
 
 #password{
     width: 28vw;
     max-width: 280px;
-    border: none;
+    border: 0;
     border-bottom: solid rgb(190, 190, 190);
 
 }
 
 #submit{
-    width:26vw;
+    width:28vw;
+    max-width: 280px;
     min-height: 4vh;
     color: white;
     background-color: rgb(56, 160, 235);
-    max-width: 200px;
     border-color:white;
     border-radius: 10em;
     margin: 1.5rem;
-  
-
 }
 #submit:hover{
     background-color:white;
